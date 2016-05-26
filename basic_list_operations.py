@@ -40,3 +40,8 @@ value_removed = data_test.pop(2)
 print("\nThe value removed is: {}.".format(value_removed))
 print("\Now the list contains:")
 print(data_test)
+
+# Remove the "last item"
+print("You can also remove the last item in a list using the index [-1].")
+value_removed = data_test.pop(-1)
+print("\nNow the list is: {}".format(data_test)
