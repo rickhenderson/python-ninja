@@ -2,7 +2,6 @@
 -------------------------------------------------------
 basic_list_operations.py
 A simple way to understand lists. 
-Probably best suited for CP104.
 -------------------------------------------------------
 Author:  Rick Henderson
 Email:   rhenderson@wlu.ca
