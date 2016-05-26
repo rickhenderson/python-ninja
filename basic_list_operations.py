@@ -2,6 +2,7 @@
 -------------------------------------------------------
 basic_list_operations.py
 A simple way to understand lists. 
+Probably best suited for CP104.
 -------------------------------------------------------
 Author:  Rick Henderson
 Email:   rhenderson@wlu.ca
@@ -29,7 +30,7 @@ print(data_test)
 # Removing an item from a list removes from the right/end of the list.
 print("\nUse the pop() method to remove items from the list.")
 value_removed = data_test.pop()
-print("\The value removed as: {}.".format(value_removed))
+print("\nThe value removed is: {}.".format(value_removed))
 print("\nSo a Python list is a LIFO object... like a Stack.")
 print(
     "\nBut it is also more flexible because you can pop() or append() at any index position.")
@@ -38,10 +39,12 @@ print(
 print("\nRemoving element at position/index 2...")
 value_removed = data_test.pop(2)
 print("\nThe value removed is: {}.".format(value_removed))
-print("\Now the list contains:")
+print("\nNow the list contains:")
 print(data_test)
 
 # Remove the "last item"
-print("You can also remove the last item in a list using the index [-1].")
+print(
+    "You can also remove the last item in a list using the index [-1]. But it's the same as pop().")
 value_removed = data_test.pop(-1)
-print("\nNow the list is: {}".format(data_test)
+print("\nNow the list contains:")
+print(data_test)
