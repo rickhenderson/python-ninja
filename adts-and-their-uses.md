@@ -14,13 +14,13 @@ __Binary Search Trees__:
 
 ## Other Useful Data Structures
 
-__Gap Buffer__: If you have always wondered how text is stored in memory in a text editor, the answer is typically a _gap buffer_. A gap buffer can be implemented as a dynamic array. Text before the cursor or insertion point is stored at the front of the array, then there is a gap for inserting more characters, and text after the cursor is stored at the end of the array after the gap. The start and end positions of the gap is constantly changing as the cursor is moved around the text in the editor.[1]
+__Gap Buffer__: If you have always wondered how text is stored in memory in a text editor, the answer is typically a _gap buffer_. A gap buffer can be implemented as a dynamic array. Text before the cursor or insertion point is stored at the front of the array, then there is a gap for inserting more characters, and text after the cursor is stored at the end of the array after the gap. The start and end positions of the gap is constantly changing as the cursor is moved around the text in the editor.[[1]]
 
 ## References
 
   [1]:<http://scienceblogs.com/goodmath/2009/02/18/gap-buffers-or-why-bother-with-1/> "Gap Buffers: Why bother with ropes?"
 
-## Other Resources
+### Other Resources
 * <a href="http://stackoverflow.com/questions/2058146/what-real-world-uses-of-the-stack-object-net-have-you-used">What real world uses of the stack object have you used?</a> - Stack Overflow
 * <a href="https://msdn.microsoft.com/en-us/library/system.collections.queue(v=vs.110).aspx">Queue Class</a> - Microsoft MSDN entry
 * <a href="http://www3.cs.stonybrook.edu/~algorith/video-lectures/">Skiena's Algorithm Lectures</a> - Huge resource of slides, video, and audio
