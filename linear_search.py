@@ -8,7 +8,6 @@ def lin_search(haystack, needle):
     n = len (haystack)
     pos = 0
     found = False
-    count = 0
     
     # continue while not found and not at end of list 
     while found != True and pos != n:
