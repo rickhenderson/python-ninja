@@ -48,3 +48,11 @@ print(
 value_removed = data_test.pop(-1)
 print("\nNow the list contains:")
 print(data_test)
+
+# A way to print a list nicely. 
+def a_print(a):
+    # Author: David Brown
+    for v in a[:-1]:
+        print("{}".format(v), end=", ")
+    print(a[-1])
+    return
