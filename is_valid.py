@@ -4,6 +4,11 @@ A short program to compare different ways
 of writting a comparison.
 Uses the python disassembler.
 Author: Rick Henderson
+======================================
+Results seem to indicate that using < or >= simply compile
+to the single COMPARE_OP bytecode instruction which should
+mean that either way of writting the loop is identical.
+======================================
 """
 import dis
 
