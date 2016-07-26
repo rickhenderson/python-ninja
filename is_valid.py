@@ -1,13 +1,13 @@
 """
 is_valid.py
 A short program to compare different ways
-of writting a comparison.
+of writing a comparison.
 Uses the python disassembler.
 Author: Rick Henderson
 ======================================
 Results seem to indicate that using < or >= simply compile
 to the single COMPARE_OP bytecode instruction which should
-mean that either way of writting the loop is identical.
+mean that either way of writing the loop is identical.
 Tested using Python 3.5.2 on Windows 7 x64 (Intel i7)
 ======================================
 """
